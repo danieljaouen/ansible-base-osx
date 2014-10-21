@@ -73,7 +73,7 @@ base_osx:
       - task
       - the_silver_searcher
       - tmate
-      - tmux
+      # - tmux
       - urlview
       - vim
       - vimpager
