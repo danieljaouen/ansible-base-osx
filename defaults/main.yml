@@ -60,7 +60,7 @@ base_osx:
       - nginx
       - nmap
       - node
-      - notmuch
+      # - notmuch
       - offline-imap
       - postgresql
       - rabbitmq
