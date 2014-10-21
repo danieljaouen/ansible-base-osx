@@ -21,13 +21,13 @@ base_osx:
       - brew-cask
       - chromedriver
       - cloc
-      - contacts
+      # - contacts
       - coreutils
       - cowsay
       - csshx
       - ctags
       - ec2-api-tools
-      - elasticsearch
+      # - elasticsearch
       - elixir
       - erlang
       - exiftool
@@ -48,7 +48,7 @@ base_osx:
       - jq
       - leiningen
       - libgit2
-      - macvim
+      # - macvim
       - mariadb
       - mongodb
       - mpc
