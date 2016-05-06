@@ -9,7 +9,6 @@ base_osx:
       - homebrew/dupes
       - homebrew/science
       - homebrew/versions
-      - nviennot/tmate
     # /taps -------------------------------------------------------- }}}
 
     # packages ----------------------------------------------------- {{{
