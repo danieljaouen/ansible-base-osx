@@ -16,7 +16,7 @@ base_osx:
       - ansible
       - aspell
       - bitlbee
-      - brew-cask
+      # - brew-cask
       - chromedriver
       - cloc
       # - contacts
