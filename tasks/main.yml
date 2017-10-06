@@ -1,5 +1,5 @@
 # file: roles/base_osx/tasks/main.yml
 
 ---
-- include: common.yml
+- import_tasks: common.yml
 # - include: python_packages.yml
