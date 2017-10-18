@@ -13,19 +13,25 @@ base_osx:
 
     # packages ----------------------------------------------------- {{{
     packages:
+      # - brew-cask
+      # - contacts
+      # - elasticsearch
+      # - macvim
+      # - notmuch
+      # - rethinkdb
+      # - tmux
       - ansible
       - aspell
+      - autoconf
+      - automake
       - bitlbee
-      # - brew-cask
       - chromedriver
       - cloc
-      # - contacts
       - coreutils
       - cowsay
       - csshx
       - ctags
       - ec2-api-tools
-      # - elasticsearch
       - elixir
       - erlang
       - exiftool
@@ -46,7 +52,9 @@ base_osx:
       - jq
       - leiningen
       - libgit2
-      # - macvim
+      - libtool
+      - libxslt
+      - libyaml
       - mariadb
       - mongodb
       - mpc
@@ -58,20 +66,20 @@ base_osx:
       - nginx
       - nmap
       - node
-      # - notmuch
       - offline-imap
+      - openssl
       - postgresql
       - rabbitmq
+      - readline
       - reattach-to-user-namespace
       - rebar
-      # - rethinkdb
       - ruby
       - selenium-server-standalone
       - sqlite
       - task
       - the_silver_searcher
       - tmate
-      # - tmux
+      - unixodbc
       - urlview
       - vim
       - vimpager
