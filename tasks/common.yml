@@ -15,9 +15,9 @@
   homebrew: name={{ item }} state=upgraded
   with_items: '{{ base_osx.common.packages }}'
 
-  - name: common | brew uninstall item
-    homebrew: name={{ item  }} state=uninstalled
-    with_items: '{{ base_osx.common.uninstalled_packages  }}'
+- name: common | brew uninstall item
+  homebrew: name={{ item  }} state=uninstalled
+  with_items: '{{ base_osx.common.uninstalled_packages  }}'
 
 - name: common | brew cask install base_osx.common.casks
   homebrew_cask: name={{ item }} state=installed
