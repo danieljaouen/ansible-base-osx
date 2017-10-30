@@ -6,19 +6,19 @@
 
 - name: common | brew tap base_osx_common.taps
   homebrew_tap: name={{ item }} state=present
-  with_items: '{{ base_osx.common.taps }}'
+  loop: '{{ base_osx.common.taps }}'
 
 - name: common | brew update 2
   homebrew: update_homebrew=yes upgrade_all=yes
 
 - name: common | brew install base_osx.common.packages
   homebrew: name={{ item }} state=upgraded
-  with_items: '{{ base_osx.common.packages }}'
+  loop: '{{ base_osx.common.packages }}'
 
 - name: common | brew uninstall item
   homebrew: name={{ item  }} state=uninstalled
-  with_items: '{{ base_osx.common.uninstalled_packages  }}'
+  loop: '{{ base_osx.common.uninstalled_packages  }}'
 
 - name: common | brew cask install base_osx.common.casks
   homebrew_cask: name={{ item }} state=installed
-  with_items: '{{ base_osx.common.casks }}'
+  loop: '{{ base_osx.common.casks }}'
