@@ -103,6 +103,7 @@ base_osx:
       - bartender
       - caffeine
       - charles
+      - emacs
       - iterm2
       # - dropbox
       # - little-snitch
