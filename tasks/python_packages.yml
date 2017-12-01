@@ -3,4 +3,4 @@
 ---
 - name: python_packages | pip install base_osx.python_packages.requirements
   pip: name={{ item }}
-  loop: base_osx.python_packages.requirements
+  with_items: base_osx.python_packages.requirements
