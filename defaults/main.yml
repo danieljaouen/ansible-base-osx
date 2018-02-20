@@ -74,6 +74,7 @@ base_osx:
       - reattach-to-user-namespace
       - rebar
       - ruby
+      - sbcl
       - selenium-server-standalone
       - sqlite
       - task
