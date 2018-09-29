@@ -6,6 +6,7 @@ base_osx:
   common:
     # taps --------------------------------------------------------- {{{
     taps:
+      - d12frosted/emacs-plus
       - homebrew/dupes
       - homebrew/science
       - homebrew/versions
@@ -13,13 +14,6 @@ base_osx:
 
     # packages ----------------------------------------------------- {{{
     packages:
-      # - brew-cask
-      # - contacts
-      # - elasticsearch
-      # - macvim
-      # - notmuch
-      # - rethinkdb
-      # - tmux
       - ansible
       - aspell
       - autoconf
@@ -104,12 +98,9 @@ base_osx:
       - bartender
       - caffeine
       - charles
+      - docker
+      - emacs-plus
       - iterm2
-      # - dropbox
-      # - emacs
-      # - little-snitch
-      # - size-up
-      # - virtualbox
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
