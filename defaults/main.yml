@@ -63,7 +63,6 @@ base_osx:
       - offline-imap
       - openssl
       - postgresql
-      - rabbitmq
       - readline
       - reattach-to-user-namespace
       - rebar
