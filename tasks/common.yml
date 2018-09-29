@@ -20,5 +20,5 @@
   with_items: '{{ base_osx.common.uninstalled_packages  }}'
 
 - name: common | brew cask install base_osx.common.casks
-  homebrew_cask: name={{ item }} state=installed
+  homebrew_cask: name={{ item }} state=installed accept_external_apps=true
   with_items: '{{ base_osx.common.casks }}'
