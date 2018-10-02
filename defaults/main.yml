@@ -50,6 +50,7 @@ base_osx:
       - libxslt
       - libyaml
       - mariadb
+      - mas
       - mongodb
       - mpc
       - mpd
