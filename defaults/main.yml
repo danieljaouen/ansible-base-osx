@@ -99,8 +99,11 @@ base_osx:
       - caffeine
       - charles
       - docker
+      - dropbox
       - emacs-plus
       - iterm2
+      - little-snitch
+      - sizeup
     # /casks ------------------------------------------------------- }}}
 
   # /common --------------------------------------------------------------- }}}
