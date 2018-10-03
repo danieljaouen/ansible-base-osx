@@ -27,6 +27,7 @@ base_osx:
       - ctags
       - ec2-api-tools
       - elixir
+      - emacs-plus
       - erlang
       - exiftool
       - fdupes
@@ -100,7 +101,6 @@ base_osx:
       - charles
       - docker
       - dropbox
-      - emacs-plus
       - iterm2
       - little-snitch
       - sizeup
